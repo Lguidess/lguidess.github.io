@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Living Style Guides Website">
+	<meta name="keywords" content="Living Style Guides, CSS, HTML, Web">
+	<meta name="author" content="">
+	<title>Living Style Guides | Member</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+</head>
+ <body>
+        <div id="top-bar">
+     <p class="inline"><strong>phone:</strong> 0422 548 265</p>
+    <p class="inline"><strong>email:</strong> lguides@gmails.com</p>
+    </div>
+        <header>Living Style Guides</header>
+      
+         <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>  
+                <li><a href="Style%20Guides.html">Living Style Guides</a></li> 
+				<li class="active"><a href="member.html">Member</a></li> 
+				<li><a href="home.html">Logout</a></li>				
+             </ul>
+     </nav>
+    <br><br><br>
+                <main class="content">
+	
+      <h1>Member</h1> <!--Typography Examples   -->
+<p>Welcome Dear Member</p>
+    
+	 <div class="col1">
+	<h2>Create a Collaboration Group</h2>
+	<form action="#" method="post" class="STYLE-NAME" enctype="multipart/form-data">
+	
+	<label>
+        <span>Name:</span>
+        <input class="form-control" id="name" type="text" name="name" maxlength="60" required/> <!--browser Validation   -->
+    </label>
+	<br>
+	<label>
+        <span>Language:</span>
+        <input class="form-control" id="language" type="text" name="language" maxlength="60" required/> <!--browser Validation   -->
+    </label>
+	<br>
+	<label>
+        <span>Admin:</span>
+        <input class="form-control" id="admin" type="text" name="admin" maxlength="60" required/> <!--browser Validation   -->
+    </label>	
+    
+	<label><br>
+	 <input type="submit" value="Create" id="submit"/>
+     </label> 
+	 </form>
+	</div>
+	 <div class="col2"><!--Grid/layout Example   -->
+	 <h2>My Collaboration Groups</h2>
+	 <table> <!--Table Example   -->
+  <tr>
+    <th>Name</th>
+    <th>Languge</th>
+    <th colspan="3"></th>
+  </tr>
+  <tr>
+    <td>Lion</td>
+    <td>Javascript</td>
+	<td><button onclick="alert('Pretending to have added Lion to favourites')">Add to Favourites</button></td>
+	<td><button onclick="alert('Pretending to have Editted Lion')">Edit</button></td>
+	<td><button onclick="alert('pretending to have deleted Lion')">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Cheetah</td>
+    <td>HTML</td>
+    <td><button onclick="alert('Pretending to have added Cheetah to favourites')">Add to Favourites</button></td>
+	<td><button onclick="alert('Pretending to have Editted Cheetah')">Edit</button></td>
+	<td><button onclick="alert('pretending to have deleted Cheetah')">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Bear</td>
+    <td>CSS</td>
+    <td><button onclick="alert('Pretending to have added Bear to favourites')">Add to Favourites</button></td>
+	<td><button onclick="alert('Pretending to have Editted Bear')">Edit</button></td>
+	<td><button onclick="alert('pretending to have deleted Bear')">Delete</button></td>
+  </tr>
+         </table>
+	 
+	 </div>
+      
+     </main>
+    </body>
+</html> 
